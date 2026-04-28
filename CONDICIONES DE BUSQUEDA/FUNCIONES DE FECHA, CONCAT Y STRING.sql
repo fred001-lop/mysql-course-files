@@ -11,3 +11,4 @@ select convert(23.45, char)as resultado;
 
 
 select substring(convert(23.45, char),3,1) as resultado;
+

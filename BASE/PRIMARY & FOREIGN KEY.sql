@@ -14,3 +14,11 @@ foreign key (dni) references tb_clientes(dni);
 
 ALTER TABLE Tb_venta ADD constraint FK_VENDEDOR
 foreign key (MATRICULA) references tb_VENDEDOR(MATRICULA);
+
+
+
+#CAMBIAR NOMBRE A LA TABLA
+
+ALTER TABLE tb_venta rename tb_factura;
+
+
